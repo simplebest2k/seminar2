@@ -14,4 +14,9 @@ public class MainController {
     public String main2() {
         return "main2";
     }
+
+    @GetMapping("/main3")
+    public String main3() {
+        return "main3";
+    }
 }
