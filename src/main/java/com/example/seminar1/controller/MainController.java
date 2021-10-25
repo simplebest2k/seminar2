@@ -9,4 +9,9 @@ public class MainController {
     public String main1() {
         return "main1";
     }
+
+    @GetMapping("/main2")
+    public String main2() {
+        return "main2";
+    }
 }
